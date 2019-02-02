@@ -1,0 +1,46 @@
+<div class="hundred">
+    <div >
+      <p>Manually select next player</p>
+      <button (click)="currentPlayer()">{{ player }}</button>
+      <p>{{ player }} is currently the next player.</p>
+    </div>
+
+  <div class="holdThree">
+    <div class="one">
+      <button (click)="changeOne()" class="btn-one">{{one}}</button>
+    </div>
+    <div class="two">
+      <button (click)="changeTwo()" class="btn-one">{{two}}</button>
+    </div>
+    <div class="three">
+      <button (click)="changeThree()" class="btn-one">{{three}}</button>
+    </div>
+  </div>
+  <div class="holdThree">
+    <div class="four">
+      <button (click)="changeFour()" class="btn-one">{{four}}</button>
+    </div>
+    <div class="five">
+      <button (click)="changeFive()" class="btn-one">{{five}}</button>
+    </div>
+    <div class="six">
+      <button (click)="changeSix()" class="btn-one">{{six}}</button>
+    </div>
+  </div>
+  <div class="holdThree">
+    <div class="seven">
+      <button (click)="changeSeven()" class="btn-one">{{seven}}</button>
+    </div>
+    <div class="eight">
+      <button (click)="changeEight()" class="btn-one">{{eight}}</button>
+    </div>
+    <div class="nine">
+      <button (click)="changeNine()" class="btn-one">{{nine}}</button>
+    </div>
+  </div>
+  <div >
+      <button (click)="resetGame()">RESET</button>
+    </div>
+
+</div>
+<router-outlet></router-outlet>

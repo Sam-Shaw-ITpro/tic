@@ -1,0 +1,102 @@
+.btn-one {
+    background-color: black;
+    color: white;
+    font-size: 70px;
+    margin: auto;
+    padding: 5px;
+}
+
+.hundred {
+    width: 100%;
+    border: 1px solid black;
+    background-color: blueviolet;
+    display: inline-block;
+    /* align-content: center; */
+    text-align: center;
+    padding: 50px;
+    /* margin: auto;    */
+}
+
+.holdThree {
+    /* margin: auto; */
+    /* width: 90%; */
+    max-width: 310px;
+    max-height: 110px;
+    border: 1px solid black;
+    background-color: bisque;
+    display: inline-block;
+    align-content: center;
+    /* padding: 1px; */
+}
+
+.one {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: bisque;
+    display: inline-block;
+}
+
+.two {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: bisque;
+    display: inline-block;
+}
+
+.three {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: bisque;
+    display: inline-block;
+}
+
+.four {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: bisque;
+    display: inline-block;
+}
+
+.five {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: bisque;
+    display: inline-block;
+}
+
+.six {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: bisque;
+    display: inline-block;
+}
+
+.seven {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: bisque;
+    display: inline-block;
+}
+
+.eight {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: bisque;
+    display: inline-block;
+}
+
+.nine {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: bisque;
+    display: inline-block;
+}
