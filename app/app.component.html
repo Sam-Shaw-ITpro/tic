@@ -1,8 +1,15 @@
 <div class="hundred">
-    <div >
-      <p>Manually select next player</p>
+  <div>
+    <p>{{ player }} is currently the next player.</p>
+    <p>Click to select other player
       <button (click)="currentPlayer()">{{ player }}</button>
-      <p>{{ player }} is currently the next player.</p>
+    </p>
+  </div>
+  <div>
+      <p>{{ oneortwo }} player game is selected.</p>
+      <p>Toggle 
+        <button (click)="numOfPlayers()">{{ oneortwo }}</button>
+      </p>
     </div>
 
   <div class="holdThree">
@@ -38,9 +45,9 @@
       <button (click)="changeNine()" class="btn-one">{{nine}}</button>
     </div>
   </div>
-  <div >
-      <button (click)="resetGame()">RESET</button>
-    </div>
-
+  <div>
+    <button (click)="resetGame()">RESET</button>
+  </div>
+{{ info }}
 </div>
 <router-outlet></router-outlet>
