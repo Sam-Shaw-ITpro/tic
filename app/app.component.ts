@@ -21,29 +21,104 @@ export class AppComponent {
   nine = this.blank;
   player = this.x;
   oneortwo = 2;
-  info = ""
+  info = "";
+  bgColorBlue1 = true;
+  bgColorBlue2 = true;
+  bgColorBlue3 = true;
+  bgColorBlue4 = true;
+  bgColorBlue5 = true;
+  bgColorBlue6 = true;
+  bgColorBlue7 = true;
+  bgColorBlue8 = true;
+  bgColorBlue9 = true;
+  stillPlaying = true;
 
   winner(): void {
     // if winner make an alert or change the BGcolor of winning block
     if (this.one == this.player && this.two == this.player && this.three == this.player)
-      console.log("123winner");
-    else if (this.four == this.player && this.five == this.player && this.six == this.player)
-      console.log("456winner");
-    else if (this.seven == this.player && this.eight == this.player && this.nine == this.player)
-      console.log("789winner");
-    else if (this.one == this.player && this.four == this.player && this.seven == this.player)
-      console.log("147winner");
-      else if (this.two == this.player && this.five == this.player && this.eight == this.player)
-      console.log("258winner");
-      else if (this.three == this.player && this.six == this.player && this.nine == this.player)
-      console.log("369winner");
-      else if (this.one == this.player && this.five == this.player && this.nine == this.player)
-      console.log("159winner");
-      else if (this.three == this.player && this.five == this.player && this.seven == this.player)
-      console.log("357winner");
-else 
-console.log("NO WINNER");
+      this.winner123();
+    if (this.four == this.player && this.five == this.player && this.six == this.player)
+      this.winner456();
+    if (this.seven == this.player && this.eight == this.player && this.nine == this.player)
+      this.winner789();
+    if (this.one == this.player && this.four == this.player && this.seven == this.player)
+      this.winner147();
+    if (this.two == this.player && this.five == this.player && this.eight == this.player)
+      this.winner258();
+    if (this.three == this.player && this.six == this.player && this.nine == this.player)
+      this.winner369();
+    if (this.one == this.player && this.five == this.player && this.nine == this.player)
+      this.winner159();
+    if (this.three == this.player && this.five == this.player && this.seven == this.player)
+      this.winner357();
   }
+
+  winner123(): void {
+    this.bgColorBlue1 = false;
+    this.bgColorBlue2 = false;
+    this.bgColorBlue3 = false;
+    console.log("winner123");
+    this.stillPlaying = false;
+  }
+
+  winner456(): void {
+    this.bgColorBlue4 = false;
+    this.bgColorBlue5 = false;
+    this.bgColorBlue6 = false;
+    console.log("winner456");
+    this.stillPlaying = false;
+  }
+
+  winner789(): void {
+    this.bgColorBlue7 = false;
+    this.bgColorBlue8 = false;
+    this.bgColorBlue9 = false;
+    console.log("winner789");
+    this.stillPlaying = false;
+  }
+
+  winner147(): void {
+    this.bgColorBlue1 = false;
+    this.bgColorBlue4 = false;
+    this.bgColorBlue7 = false;
+    console.log("winner147");
+    this.stillPlaying = false;
+  }
+
+  winner258(): void {
+    this.bgColorBlue2 = false;
+    this.bgColorBlue5 = false;
+    this.bgColorBlue8 = false;
+    console.log("winner258");
+    this.stillPlaying = false;
+  }
+
+  winner369(): void {
+    this.bgColorBlue3 = false;
+    this.bgColorBlue6 = false;
+    this.bgColorBlue9 = false;
+    console.log("winner369");
+    this.stillPlaying = false;
+  }
+
+
+  winner159(): void {
+    this.bgColorBlue1 = false;
+    this.bgColorBlue5 = false;
+    this.bgColorBlue9 = false;
+    console.log("winner159");
+    this.stillPlaying = false;
+  }
+
+
+  winner357(): void {
+    this.bgColorBlue3 = false;
+    this.bgColorBlue5 = false;
+    this.bgColorBlue7 = false;
+    console.log("winner357");
+    this.stillPlaying = false;
+  }
+
 
   gameOver(): void {
     console.log("WINNER");
@@ -155,5 +230,15 @@ console.log("NO WINNER");
     this.player = this.x;
     this.oneortwo = 2;
     this.info = '';
+    this.bgColorBlue1 = true;
+    this.bgColorBlue2 = true;
+    this.bgColorBlue3 = true;
+    this.bgColorBlue4 = true;
+    this.bgColorBlue5 = true;
+    this.bgColorBlue6 = true;
+    this.bgColorBlue7 = true;
+    this.bgColorBlue8 = true;
+    this.bgColorBlue9 = true;
+    this.stillPlaying = true;
   }
 }

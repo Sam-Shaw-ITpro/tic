@@ -1,3 +1,14 @@
+/* .button {
+    vertical-align: top;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    
+    color: white;
+    font-size: 70px;
+    margin: auto;
+} 
+
 .btn-one {
     vertical-align: top;
     display: inline-block;
@@ -7,10 +18,10 @@
     color: white;
     font-size: 70px;
     margin: auto;
-}
+} */
 
 .hundred {
-    width: 100%;
+    width: 400px;
     background-color: whitesmoke;
     display: inline-block;
     text-align: center;
@@ -24,11 +35,57 @@
     align-content: center;
 }
 
-.one {
-    border: 1px solid black;
+/* .one { */
+    /* border: 1px solid black; */
+    /* display: inline-block; */
+/* } */
+
+.button blueBox {
+    vertical-align: top;
     display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    font-size: 70px;
+    margin: auto;
 }
 
+.blueBox {
+    vertical-align: top;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    font-size: 70px;
+    margin: auto;
+}
+
+.redBox {
+    vertical-align: top;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    font-size: 70px;
+    margin: auto;
+}
+
+
+.button redBox {
+    vertical-align: top;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    color: white;
+    font-size: 70px;
+    margin: auto;
+}
+
+/* 
 .two {
     border: 1px solid black;
     display: inline-block;
@@ -67,4 +124,4 @@
 .nine {
     border: 1px solid black;
     display: inline-block;
-}
+} */

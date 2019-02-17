@@ -13,36 +13,36 @@
     </div>
 
   <div class="holdThree">
-    <div class="one">
-      <button (click)="changeOne()" class="btn-one">{{one}}</button>
+      <div style="border: 1px solid black;display: inline-block;" >
+      <button (click)="changeOne()" [ngClass]="{'blueBox': bgColorBlue1 === true,'redBox': bgColorBlue1 === false}">{{one}}</button>
     </div>
-    <div class="two">
-      <button (click)="changeTwo()" class="btn-one">{{two}}</button>
+    <div style="border: 1px solid black;display: inline-block;" >
+      <button (click)="changeTwo()" [ngClass]="{'blueBox': bgColorBlue2 === true,'redBox': bgColorBlue2 === false}">{{two}}</button>
     </div>
-    <div class="three">
-      <button (click)="changeThree()" class="btn-one">{{three}}</button>
-    </div>
-  </div>
-  <div class="holdThree">
-    <div class="four">
-      <button (click)="changeFour()" class="btn-one">{{four}}</button>
-    </div>
-    <div class="five">
-      <button (click)="changeFive()" class="btn-one">{{five}}</button>
-    </div>
-    <div class="six">
-      <button (click)="changeSix()" class="btn-one">{{six}}</button>
+    <div style="border: 1px solid black;display: inline-block;" >
+      <button (click)="changeThree()" [ngClass]="{'blueBox': bgColorBlue3 === true,'redBox': bgColorBlue3 === false}">{{three}}</button>
     </div>
   </div>
   <div class="holdThree">
-    <div class="seven">
-      <button (click)="changeSeven()" class="btn-one">{{seven}}</button>
+      <div style="border: 1px solid black;display: inline-block;" >
+      <button (click)="changeFour()" [ngClass]="{'blueBox': bgColorBlue4 === true,'redBox': bgColorBlue4 === false}">{{four}}</button>
     </div>
-    <div class="eight">
-      <button (click)="changeEight()" class="btn-one">{{eight}}</button>
+    <div style="border: 1px solid black;display: inline-block;" >
+      <button (click)="changeFive()" [ngClass]="{'blueBox': bgColorBlue5 === true,'redBox': bgColorBlue5 === false}">{{five}}</button>
     </div>
-    <div class="nine">
-      <button (click)="changeNine()" class="btn-one">{{nine}}</button>
+    <div style="border: 1px solid black;display: inline-block;" >
+      <button (click)="changeSix()" [ngClass]="{'blueBox': bgColorBlue6 === true,'redBox': bgColorBlue6 === false}">{{six}}</button>
+    </div>
+  </div>
+  <div class="holdThree">
+      <div style="border: 1px solid black;display: inline-block;" >
+      <button (click)="changeSeven()" [ngClass]="{'blueBox': bgColorBlue7 === true,'redBox': bgColorBlue7 === false}">{{seven}}</button>
+    </div>
+    <div style="border: 1px solid black;display: inline-block;" >
+      <button (click)="changeEight()" [ngClass]="{'blueBox': bgColorBlue8 === true,'redBox': bgColorBlue8 === false}">{{eight}}</button>
+    </div>
+    <div style="border: 1px solid black;display: inline-block;" >
+      <button (click)="changeNine()" [ngClass]="{'blueBox': bgColorBlue9 === true,'redBox': bgColorBlue9 === false}">{{nine}}</button>
     </div>
   </div>
   <div>
